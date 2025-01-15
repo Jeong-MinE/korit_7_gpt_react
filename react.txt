@@ -6,6 +6,12 @@ virtual-DOM
 상태변화를 감지(상태값의 변화) 및 비교 후 재호출 
 변화 값을 바꿈.
 
+reactjs code snippet 셋팅 
+- rsf 등 자동 완성 기능
+
+컨트롤 쉬프트 p 
+setting.json user
+
 
 
 

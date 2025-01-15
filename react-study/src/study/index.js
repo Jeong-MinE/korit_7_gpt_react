@@ -8,9 +8,9 @@ import Hello2 from './Hello2/Hello2';
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<Hello2/>);
+// root.render(<Hello2/>);
 
 printConslo();
 printConslo2();
