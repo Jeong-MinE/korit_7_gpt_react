@@ -1,6 +1,6 @@
 /**
  * 도서정보 등록 및 조회
- * 도서명, isbn, 저자명, 출판사명, 카테고리 입력
+ * 도서명, isbn, 저자명 입력
  * 
  * bookList에 저장
  * table
@@ -10,7 +10,9 @@
  * 
  * 등록, 조회 나눔 검색
  */
+import React, { useState } from 'react';
 
+<<<<<<< HEAD
 /**
  * 도서정보 등록 및 조회
  * 도서명, isbn, 저자명 입력
@@ -25,6 +27,8 @@
  */
 import React, { useState } from 'react';
 
+=======
+>>>>>>> 4f642b07c274e41227d49a4607f5cd16d015859a
 
 
 function App7(props) {
@@ -76,7 +80,11 @@ function App7(props) {
         setBookList([
             ...bookList,
             signinInputValue,
+<<<<<<< HEAD
         ]);
+=======
+        ])
+>>>>>>> 4f642b07c274e41227d49a4607f5cd16d015859a
 
         alert("조회완료")
 
@@ -84,8 +92,13 @@ function App7(props) {
             bookname: "",
             isbn: "",
             author: "",
+<<<<<<< HEAD
         });
     };
+=======
+        })
+    }
+>>>>>>> 4f642b07c274e41227d49a4607f5cd16d015859a
    
 
 
@@ -111,4 +124,8 @@ function App7(props) {
     );
 }
 
+<<<<<<< HEAD
 export default App7;
+=======
+export default App7;
+>>>>>>> 4f642b07c274e41227d49a4607f5cd16d015859a
