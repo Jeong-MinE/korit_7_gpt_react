@@ -12,6 +12,7 @@ reactjs code snippet 셋팅
 컨트롤 쉬프트 p 
 setting.json user
 
+ref -> DOM객체 사용할 때만 사용(태그)
 
 
 
