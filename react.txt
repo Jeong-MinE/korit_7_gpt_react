@@ -14,7 +14,13 @@ setting.json user
 
 ref -> DOM객체 사용할 때만 사용(태그)
 
+npm install @emotion/react
 
+vscode styled components (css 속성 보임 자동완성 가능)
+
+npm install react-quill 
+||
+npm install quill
 
 
 
