@@ -1,13 +1,21 @@
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { BrowserRouter, Routes } from 'react-router-dom';
+import { RecoilRoot } from 'recoil';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+const queryClient = new QueryClient();
+
 root.render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
+    <RecoilRoot>
+        <QueryClientProvider client={queryClient}>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </QueryClientProvider>
+    </RecoilRoot>
 );
 
 // root.render(<App />);

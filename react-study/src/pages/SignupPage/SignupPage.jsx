@@ -49,7 +49,8 @@ function SignupPage(props) {
             alert("회원가입 완료");
             navigate(`/signin?username=${response.data.data.username}`);
         } catch (error) {
-            
+            console.log(error);
+            alert("오류 발생.");
         }
     }
 

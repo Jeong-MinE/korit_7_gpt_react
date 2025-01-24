@@ -22,6 +22,8 @@ npm install react-quill
 ||
 npm install quill
 
+npm install recoil
+
 
 
 
